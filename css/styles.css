@@ -25,6 +25,12 @@
     max-width: 680px;
   }
   
+form{
+ width: 50%;
+ margin: 0 auto;
+ max-width: 400px;
+}
+
   h1,
   .container,
   .output {
@@ -41,6 +47,10 @@
     flex-direction: column;
   }
   
+  .input-container > input{
+    max-width: 400px;
+  }
+
   button {
     cursor: pointer;
     text-decoration: none;

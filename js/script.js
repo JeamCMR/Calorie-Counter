@@ -9,6 +9,7 @@ const output = document.getElementById("output");
 
 let isError = false;
 
+console.log(entryDropdown.value);
 /**FUNCIONES */ 
 
 function cleanInputString(str){
@@ -58,6 +59,7 @@ function getCaloriesFromInputs(list){
   let calories = 0;
   for (const item of list) {
     const currVal = cleanInputString(item.value);
+
     const invalidInputMatch  = isInvalidInput (currVal);
 
     if(invalidInputMatch){
